@@ -33,7 +33,7 @@ const CrazyMaterial: React.FC<{ max: Vector3; min: Vector3 }> = ({
     amplitude: { value: c.amplitude, min: 0, max: 10 },
     intensity: { value: c.intensity, min: 0, max: 10 },
     speed: { value: c.speed, min: 0, max: 50 },
-    cellSize: { value: c.cellSize, min: 0, max: 300 },
+    cellSize: { value: c.cellSize, min: 0, max: 3000 },
     chessTop: { value: c.ctop, min: -2, max: 2 },
     chessBottom: { value: c.cbottom, min: 0, max: 0.5 },
     grainTop: { value: c.ctop, min: 0, max: 50 },
