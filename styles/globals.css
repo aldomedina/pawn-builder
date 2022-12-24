@@ -11,8 +11,7 @@ body,
   margin: 0;
 }
 body {
-  background: radial-gradient(#87789d 1px, #121212 2px);
-  background-size: 60px 60px;
+  background: #121212;
 }
 a {
   color: inherit;
