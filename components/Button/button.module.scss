@@ -1,0 +1,32 @@
+@import "../../styles/mixins.scss";
+.btn {
+  background-color: color(grey, base);
+  padding: 3px;
+  transition: transform 0.1s ease-in-out;
+  &:hover {
+    background-color: darken(color(grey, base), 5%);
+  }
+  &:active {
+    transform: translateY(5px);
+  }
+}
+.detail {
+  padding-right: 2em;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    background-color: color(dark, base);
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+  }
+}
+
+.SM {
+  font-size: 0.7rem;
+}
+.LG {
+  font-size: 1.25rem;
+}

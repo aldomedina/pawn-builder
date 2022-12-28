@@ -1,0 +1,9 @@
+@import "../../styles/mixins.scss";
+
+.toolbar {
+  position: absolute;
+  top: 31px;
+  left: 0;
+  width: 100%;
+  display: flex;
+}

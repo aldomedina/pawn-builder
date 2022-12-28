@@ -1,0 +1,46 @@
+$primary-color: #c1dddd;
+$secondary-color: #b1e7e7;
+$light-color: #ffffff;
+$dark-color: #2d2d38;
+$grey-color: #d9d9d9;
+$lightgrey-color: #e5e5e8;
+$success-color: #1dbf7a;
+$error-color: #ff4c38;
+
+$palettes: (
+  primary: (
+    base: $primary-color,
+  ),
+  secondary: (
+    base: $secondary-color,
+  ),
+  light: (
+    base: $light-color,
+  ),
+  dark: (
+    base: $dark-color,
+  ),
+  grey: (
+    base: $grey-color,
+  ),
+  lightgrey: (
+    base: $lightgrey-color,
+  ),
+  success: (
+    base: $success-color,
+  ),
+  error: (
+    base: $error-color,
+  ),
+);
+
+:export {
+  primaryColor: $primary-color;
+  secondaryColor: $secondary-color;
+  lightColor: $light-color;
+  darkColor: $dark-color;
+  lightgreyColor: $lightgrey-color;
+  greyColor: $grey-color;
+  successColor: $success-color;
+  errorColor: $error-color;
+}

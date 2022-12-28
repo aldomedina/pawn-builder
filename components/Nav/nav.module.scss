@@ -1,0 +1,31 @@
+@import "../../styles/mixins.scss";
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  .metabar {
+    flex: 1;
+    overflow: hidden;
+    background: color(dark, base);
+    color: color(light, base);
+    padding: 3px 0;
+  }
+  .btn {
+    padding: 0.4rem 1rem;
+    font-weight: 500;
+  }
+  .w-connected {
+    background: color(success, base);
+    &:hover {
+      background-color: darken(color(success, base), 5%);
+    }
+  }
+  .w-disconnected {
+    background: color(error, base);
+    &:hover {
+      background-color: darken(color(error, base), 5%);
+    }
+  }
+}
